@@ -4,10 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="./js/script.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <table class="movies-table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Genre</th>
+          <th>Director</th>
+          <th>Year</th>
+          <th>Delete/Change</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="movie-tpl">
+          <td><input type="text" class="input" id="title" placeholder="title" required></td>
+          <td><input type="text" class="input" id="genre" placeholder="genre" required></td>
+          <td><input type="text" class="input" id="director" placeholder="director" required></td>
+          <td><input type="text" class="input" id="year" placeholder="year" required></td>
+          <td><button class="create-movie-btn material-symbols-outlined">done</button></td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>

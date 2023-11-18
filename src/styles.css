@@ -1,0 +1,17 @@
+
+.movies-table {
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 2px solid #2a2a2a;
+}
+
+.form {
+  margin-right: auto;
+  margin-left: auto;
+}

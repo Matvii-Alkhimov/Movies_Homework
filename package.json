@@ -22,7 +22,7 @@
     "axios": "^1.5.1",
     "json-server": "^0.17.3",
     "modern-normalize": "^1.1.0",
-    "nanoid": "^5.0.1",
+    "nanoid": "^5.0.2",
     "parcel-transformer-hbs": "^1.0.4"
   },
   "devDependencies": {
@@ -34,4 +34,3 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
-

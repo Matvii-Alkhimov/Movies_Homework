@@ -1,0 +1,12 @@
+{{#each this}}
+    <tr>
+        <td>{{title}}</td>
+        <td>{{genre}}</td>
+        <td>{{director}}</td>
+        <td>{{year}}</td>
+        <td>
+            <button data-id="{{id}}" class="material-symbols-outlined" data-type="delete-btn">delete</button>
+            <button data-id="{{id}}" class="material-symbols-outlined" data-type="edit-btn">edit</button>
+        </td>
+    </tr>
+{{/each}}
