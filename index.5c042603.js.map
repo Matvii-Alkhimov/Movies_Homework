@@ -1,1 +1,0 @@
-{"mappings":"AAAAA,QAAQC,IAAI,QACZC,MAAM","sources":["src/js/script.js"],"sourcesContent":["console.log(\"test\")\nalert(\"!!!\")"],"names":["console","log","alert"],"version":3,"file":"index.5c042603.js.map"}
